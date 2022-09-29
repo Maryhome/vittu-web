@@ -1,0 +1,10 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+.boton {
+     @apply py-2 px-8 rounded border-solid border-2 uppercase
+}
+.ajuste-imagen {
+    @apply bg-cover object-fill bg-no-repeat bg-top
+}
+@tailwind utilities;
